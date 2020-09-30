@@ -1,7 +1,7 @@
 
 .body {
     margin: 0;
-    background-color: #38342E;
+    background-color: #1d0000;
     font-family: 'Times New Roman';
     scroll-behavior: smooth;
     animation-delay: 40s;
@@ -14,7 +14,7 @@
   
   .topnav {
     overflow: hidden;
-    background-color: #423E38;
+    background-color: rgb(39, 10, 10);
     text-align: center;
     height: 90px;
     z-index: 1;
@@ -89,7 +89,7 @@
   }
 
   .start_up{
-    background-image: url('/assets/Rectangle\ 2\ \(1\).png');
+    background-image: url(/assets/Rectangle\ 2\ \(1\).png);
     height: 650px;
     width: 100%;
     background-size: cover;
@@ -114,12 +114,12 @@
     margin-top: -89px;
     text-align: center;
     font-family: 'Times New Roman';
-    background-color: #38342E;
+    background-color: #1d0000;
     color: white;
     
   }
   .row{
-    background-color: #38342E;
+    background-color: #1d0000;
     color: white;
    
     text-align: center;
@@ -151,7 +151,7 @@
   body,html {
     margin: 0;
     font: bold 14px/1.4 'Open Sans', arial, sans-serif;
-    background: #000;
+    background-color: #1d0000;
   }
   ul { 
     margin: 150px auto 0; 
