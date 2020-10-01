@@ -17,6 +17,11 @@ body{
   background-color: #1d0000;
 
 }
+#chi{
+  margin-left: 250px; 
+  margin-right: 250px;
+}
+
 
   
   .topnav {
@@ -139,12 +144,12 @@ body{
   .content{
     text-align: center;
     color: white;
-    margin: 80px;
+  
   }
   .history{
     text-align: center;
     color: white;
-    margin: 80px;
+    
   }
   .schedule{
     text-align: center;
@@ -213,10 +218,28 @@ body{
       font-size: 5px;
     }
   }
-  @media screen and (max-height: 150px) {
+  @media screen and (max-width: 300px) {
    
     #myTopnav{
       font-size: 5px;
+    }
+    p{
+      margin: 10px;
+    }
+    #chi{
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    p{
+      margin: 25px;
+    }
+    #chi{
+      margin: 25px;
+    }
+    #myTopnav{
+      font-size: 10px;
     }
   }
   .navbar-nav > li {
@@ -230,6 +253,12 @@ body{
     left: 0;
     position: absolute;
     right: 0;
+  }
+  .band{
+    height: 117px;
+    background-color: #130000;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   
   
