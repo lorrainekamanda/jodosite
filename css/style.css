@@ -220,18 +220,19 @@ body{
   }
   @media screen and (max-width: 300px) {
    
-    #myTopnav{
+    .nav-item{
       font-size: 5px;
     }
     p{
       margin: 10px;
     }
+
     #chi{
       margin-left: 25px;
       margin-right: 25px;
     }
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
     p{
       margin: 25px;
     }
@@ -240,11 +241,19 @@ body{
     }
     #myTopnav{
       font-size: 10px;
+      width: 100%;
+    }
+    #myTopnav li a{
+      font-size: 13px;
+      margin-right: 0;
     }
   }
   .navbar-nav > li {
     float: left;
     position: relative;
+  }
+  li{
+    font-size: 2px;
   }
   .navbar-nav .active a::after {
     border-bottom: 5px solid #5bc0eb;
