@@ -38,6 +38,10 @@ body{
     z-index: 1;
     justify-content: center;
     text-decoration: none;
+    scroll-snap-stop: none;
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
+
   
    
     
@@ -106,32 +110,40 @@ body{
   .start_up{
     
    
-    margin: 0;
-    padding: 0;
+  
     background-image: url(/assets/Rectangle\ 2\ \(1\).png);
     width: 100%;
-    height: 90%;
+    height: 660px;
     display: flex;
     justify-content: center;
     background-size: cover;
-   
-  
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-repeat: no-repeat;
     background-position: center center;
- 
+  
+   
+  } 
+ #column{
+  background-image: url(/assets/DSC01988.JPG);
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+
+ }
     
     
     
   
  
     
-  }
+  
   .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
   }
   .start_up2{
 
